@@ -23,6 +23,9 @@ func Trebuchet(s string) int {
 	return first + last
 }
 
+// returns the first digit in s multiplied by 10 plust the last digit in s
+// numbers array contains all the numbers in order in such a way that
+// numbers[i%9][0] is the number itself.
 func TrebuchetPart2(s string) int {
 	numbers := []string{
 		"1", "2", "3", "4", "5", "6", "7", "8", "9",
