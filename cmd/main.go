@@ -4,5 +4,6 @@ import "yerkortiz/aoc2023/solutions"
 
 func main() {
 	// solutions.SolveTrebuchet()
-	solutions.SolveCubeConundrum()
+	// solutions.SolveCubeConundrum()
+	solutions.SolveGearRatios()
 }
